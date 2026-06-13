@@ -15,7 +15,8 @@ const mediaAssets = {
   skillsAnimation: `${publicUrl}/lottie/mobile-skills.json`,
   ulutechLogo: `${publicUrl}/company-logos/ulutech.png`,
   smartlifeLogo: `${publicUrl}/company-logos/smartlife.png`,
-  htcIraqLogo: `${publicUrl}/company-logos/htc-iraq.svg`
+  htcIraqLogo: `${publicUrl}/company-logos/htc-iraq.svg`,
+  freelancerLogo: `${publicUrl}/company-logos/freelancer.png`
 };
 
 // Splash Screen
@@ -38,16 +39,18 @@ const greeting = {
   subTitle: emoji(
     `Highly skilled Flutter developer with 5+ years of experience designing and building responsive, user-friendly mobile applications. Proficient in leveraging the Flutter framework to create visually appealing, cross-platform applications for both iOS and Android. Strong understanding of Dart, state management solutions, and RESTful APIs to enhance application performance and user experience.`
   ),
-  resumeLink: `${publicUrl}/Ahmad-Al-Haidar-CV.pdf`,
+  resumeLink:
+    "https://drive.google.com/file/d/1RHZoBcDxmUhbRjFo5yDC31Gto_0ac7Z4/view?usp=share_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/AhmadHHaidar",
+//  github: "https://github.com/AhmadHHaidar",
+  github: "https://github.com/Ahmad-AlHaidar",
   linkedin: "https://www.linkedin.com/in/ahmad-al-haidar-985b7822a",
-  gmail: "ahmada1haidar88@gmail.com",
+  gmail: "homamhaidar95@gmail.com",
   gitlab: "https://gitlab.com/ahmadalhaidar88",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -148,19 +151,19 @@ const techStack = {
   experience: [
     {
       Stack: "Flutter/Dart",
-      progressPercentage: "95%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Code with AI",
-      progressPercentage: "90%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Firebase",
-      progressPercentage: "90%"
+      progressPercentage: "95%"
     },
     {
       Stack: "RESTful APIs",
-      progressPercentage: "85%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Testing (Unit/Widget/Integration)",
@@ -168,15 +171,15 @@ const techStack = {
     },
     {
       Stack: "Jira",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "CI/CD",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     },
     {
       Stack: "QML C++",
-      progressPercentage: "70%"
+      progressPercentage: "55%"
     },
     {
       Stack: "Kotlin",
@@ -207,10 +210,24 @@ const workExperiences = {
       ]
     },
     {
+      role: "Flutter Mobile Developer (Freelance)",
+      company: "Freelancer",
+      companylogo: mediaAssets.freelancerLogo,
+      date: "Freelance",
+      desc: "Delivered end-to-end Flutter solutions for independent clients, from architecture and development to store deployment.",
+      descBullets: [
+        "Built Cvium App — a resume and recommendation letter builder published on Google Play",
+        "Developed Brand Al-Souq — a dual-app fabric marketplace with separate merchant and buyer applications",
+        "Implemented merchant dashboards with purchase analytics, filtering, campaigns, offers, and push notifications",
+        "Built the buyer app with product browsing, ordering, delivery address selection, and product suggestion requests",
+        "Published the buyer app on Google Play and the Apple App Store; the merchant app is used internally"
+      ]
+    },
+    {
       role: "Flutter Mobile Developer",
       company: "HTC IRAQ",
       companylogo: mediaAssets.htcIraqLogo,
-      date: "02/2024 - 08/2024",
+      date: "08/2024 - 01/2025",
       desc: "Developed high-quality Flutter applications remotely with a focus on responsive design and cross-device compatibility.",
       descBullets: [
         "Conducted thorough testing and debugging of applications across various devices and operating systems",
@@ -223,7 +240,7 @@ const workExperiences = {
       role: "Flutter Mobile Developer",
       company: "ULUTECH",
       companylogo: mediaAssets.ulutechLogo,
-      date: "09/2021 - 01/2024",
+      date: "08/2021 - 09/2024",
       desc: "Building Flutter applications remotely using TDD architecture for structured, scalable, and testable code.",
       descBullets: [
         "Build applications using the TDD architecture, which makes code structured, scalable, and testable",
@@ -322,6 +339,22 @@ const bigProjects = {
         {
           name: "Play Store",
           url: "https://play.google.com/store/apps/details?id=com.nbs.alphameal"
+        }
+      ]
+    },
+    {
+      image: "",
+      projectName: "Brand Al-Souq",
+      projectDesc:
+        "A fabric marketplace with two Flutter apps: a merchant app (internal) for managing fabric categories, products, purchase statistics, filtering, marketing campaigns, offers, user management, and notifications; and a buyer app (iOS & Android) for browsing products, placing orders, selecting delivery addresses, and requesting unavailable products from merchants.",
+      footerLink: [
+        {
+          name: "Google Play",
+          url: "https://play.google.com/store/apps/details?id=com.BoshiBuyre.HomDev"
+        },
+        {
+          name: "App Store",
+          url: "https://apps.apple.com/tr/app/%D8%A8%D8%B1%D8%A7%D9%86%D8%AF-%D8%A7%D9%84%D8%B3%D9%88%D9%82/id6761701068"
         }
       ]
     },
@@ -467,7 +500,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+963992669315",
-  email_address: "ahmada1haidar88@gmail.com"
+  email_address: "homamhaidar95@gmail.com"
 };
 
 // Twitter Section
