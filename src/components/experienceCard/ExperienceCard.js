@@ -7,8 +7,16 @@ export default function ExperienceCard({cardInfo, isDark}) {
   const imgRef = createRef();
 
   function getColorArrays() {
-    const colorThief = new ColorThief();
-    setColorArrays(colorThief.getColor(imgRef.current));
+    try {
+      const img = imgRef.current;
+      if (!img || !img.complete || img.naturalWidth === 0) {
+        return;
+      }
+      const colorThief = new ColorThief();
+      setColorArrays(colorThief.getColor(img));
+    } catch (error) {
+      setColorArrays([]);
+    }
   }
 
   function rgb(values) {
@@ -45,6 +53,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
           src={cardInfo.companylogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
+          onError={() => setColorArrays([])}
         />
       </div>
       <div className="experience-text-details">

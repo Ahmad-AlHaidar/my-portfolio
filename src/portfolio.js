@@ -273,7 +273,11 @@ const bigProjects = {
         {
           name: "Play Store",
           url: "https://play.google.com/store/apps/details?id=org.smartlife.slifehr&pcampaignid=web_share"
-        }
+        },
+        {
+                  name: "App Store",
+                  url: "https://apps.apple.com/tr/app/smart-life-hr/id1541491128"
+                }
       ]
     },
     {
@@ -367,7 +371,11 @@ const bigProjects = {
         {
           name: "Play Store",
           url: "https://play.google.com/store/apps/details?id=com.cvium.templates.resume.builder&pli=1"
-        }
+        },
+        {
+                  name: "App Store",
+                  url: "https://apps.apple.com/tr/app/cv-resume-builder-app-cvium/id6444014999"
+                }
       ]
     },
     {
