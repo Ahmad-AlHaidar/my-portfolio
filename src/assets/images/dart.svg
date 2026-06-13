@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Dart">
+  <path fill="#01579B" d="M24 4C14.06 4 6 12.06 6 22s8.06 18 18 18c3.87 0 7.45-1.22 10.38-3.29L42 40V26.62C44.07 23.69 45.29 20.11 45.29 16.24 45.29 9.48 40.52 4 24 4z"/>
+  <path fill="#00BCD4" d="M24 4v18.62L42 40H26.38L24 37.62V4z"/>
+  <path fill="#FFFFFF" d="M24 22.62h9.38L42 40h-9.38L24 31.24V22.62z"/>
+</svg>

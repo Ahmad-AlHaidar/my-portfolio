@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="HTC IRAQ">
+  <defs>
+    <linearGradient id="htcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c63ff"/>
+      <stop offset="100%" stop-color="#55198b"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="28" fill="url(#htcBg)"/>
+  <rect x="24" y="24" width="152" height="152" rx="20" fill="#ffffff" opacity="0.12"/>
+  <text x="100" y="92" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="42" font-weight="700" text-anchor="middle">HTC</text>
+  <text x="100" y="128" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="600" text-anchor="middle" opacity="0.95">IRAQ</text>
+  <path d="M58 148h84" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="100" cy="156" r="4" fill="#ffffff" opacity="0.85"/>
+</svg>
